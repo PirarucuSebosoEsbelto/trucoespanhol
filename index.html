@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Truco espanhol</title>
 </head>
+
 <body>
     <form action="" method="post">
 <p>Digite seu nome:</p>
 <input type="text" name="nome" placeholder="Cheguevara" required>
 <br>
+
 <p>Digite seu e-mail:</p>
 <input type="email" name="e-mail" value="@escola.pr.gov.br" placeholder="Digite seu email" required>
 <br>
+
 <p>Digite seu número de telefone:</p>
 <input type="number" name="número de telefone" placeholder="(99)99999-9999" required>
 <br>
+
 <p>Você sabe jogar truco?</p>
 <input type="radio" name="truco" value="sim"> Sim
 <input type="radio" name="truco" value="não"> Não
 <br>
+
+<p>Há quanto tempo você joga truco?</p>
+<input type="number" name="tempo" placeholder="2 anos" required>
+<br>
+
 <p>Prefere baralho epanhol ou padrão?</p>
 <input type="radio" name="truco2" value="Espanhol"> Espanhol
 <input type="radio" name="truco2" value="Padrão"> Padrão
 <br>
+
 <p>Qual seu naipe favorito?</p>
 <select name="naipes">
     <option value="1">Ouros</option>
@@ -32,15 +43,20 @@
     <option value="4">Paus</option>
 </select>
 <br>
+
 <p>Envie seu feedback</p>
 <textarea name="feedback"></textarea>
 <br>
+
 <input type="checkbox" name="termos" checked> Aceito receber os termos de uso
 <br>
+
 <input type="checkbox" name="novidades" checked> Aceito receber novidades
 <br>
+
 <button type="submit">Enviar</button>
 <button type="reset">Apagar</button>
     </form>
+
 </body>
 </html>
