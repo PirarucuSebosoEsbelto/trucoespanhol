@@ -8,19 +8,21 @@
 <body>
     <form action="" method="post">
 <p>Digite seu nome:</p>
-<input type="text" name="nome">
+<input type="text" name="nome" placeholder="Cheguevara" required>
 <br>
 <p>Digite seu e-mail:</p>
-<input type="email" name="e-mail" value="@escola.pr.gov.br">
+<input type="email" name="e-mail" value="@escola.pr.gov.br" placeholder="Digite seu email" required>
 <br>
 <p>Digite seu número de telefone:</p>
-<input type="number" name="número de telefone">
+<input type="number" name="número de telefone" required>
 <br>
 <p>Você trabalha?</p>
 <input type="radio" name="trabalho" value="sim"> Sim
-<input type="radio" name="trabalho" value="sim"> Não
+<input type="radio" name="trabalho" value="não"> Não
 <br>
-<input type="checkbox" name="novidades"> Aceito receber novidades
+<input type="checkbox" name="termos" checked> Aceito receber os termos de uso
+<input type="checkbox" name="novidades" checked> Aceito receber novidades
+<br>
     </form>
 </body>
 </html>
